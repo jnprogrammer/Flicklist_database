@@ -78,7 +78,7 @@ function render() {
 
   // insert browse items
   model.browseItems.forEach(function(movie) {
-    var title = $("<h4></h4>").text(movie.original_title);
+    var title = $("<h4>MEGAMAN</h4>").text(movie.original_title);
     var button = $("<button></button>")
       .text("Add to Watchlist")
       .click(function() {
